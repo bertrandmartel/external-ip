@@ -1,5 +1,8 @@
 # API exposing inbound/outbound IP
 
+[![Build Status](https://github.com/bertrandmartel/external-ip/workflows/build%20and%20deploy/badge.svg)](https://github.com/bertrandmartel/external-ip/actions?workflow=build%20and%20deploy)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bertrandmartel/external-ip)](https://goreportcard.com/report/github.com/bertrandmartel/external-ip)
+[![](https://img.shields.io/docker/pulls/bertrandmartel/external-ip.svg)](https://hub.docker.com/r/bertrandmartel/external-ip)
 [![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE.md)
 
 Small server written in go exposing a single API displaying inbound & outbound IP
@@ -13,7 +16,6 @@ Environment variables :
 |----------|-------------|
 | PORT     | server port |
 | HOSTNAME | hostname to check inbound ip |
-
 
 ## Using Docker
 
@@ -45,6 +47,6 @@ go build
 ./external-ip
 ```
 
-## Depedencies
+## Dependencies
 
 * [echo](https://echo.labstack.com/)
